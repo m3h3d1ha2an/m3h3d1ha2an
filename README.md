@@ -17,15 +17,15 @@ Hello, I am **Mehedi Hasan**, a **full stack web applicaton developer** based in
 
 ## 
 
-💼 Currently working at [**ET Tech Limited**](https://github.com/ettechlimited)
+Currently working at [**ET Tech Limited**](https://github.com/ettechlimited)
 
-🌐 Portfolio: [**mehedi.engineer**](https://mehedi.engineer)
+Portfolio: [**mehedi.engineer**](https://mehedi.engineer)
 
-  I use Arch, btw.
+I use Arch, btw.
   
 ##
 
-![My Skills](https://skillicons.dev/icons?i=ts,tailwind,next,express,nodejs,postgres,prisma,mongodb,graphql,markdown,vercel,git,github,vscode&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=ts,tailwind,next,react,redux,vite,express,nodejs,postgres,prisma,mongodb,graphql,vercel,bun,pnpm&theme=dark)
 
 
 ##
