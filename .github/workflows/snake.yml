@@ -12,6 +12,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Force a new commit for workflow update
       - name: Checkout repository
         uses: actions/checkout@v4
 
