@@ -1,8 +1,3 @@
-<p align="center" width="500px">
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&pause=1000&color=4078C0&center=true&vCenter=true&random=false&width=450&lines=Welcome+to+my+GitHub+profile+%F0%9F%98%87;Happy+to+see+you+here+%F0%9F%98%80;Specializing+in+Full+Stack+Development+%F0%9F%92%BB;Building+Creative+and+Responsive+Web+Apps+%F0%9F%8C%90;Let's+Collaborate+on+Amazing+Projects+%F0%9F%A4%9D;Feel+Free+to+Reach+Out+%F0%9F%A4%97;Have+a+Great+Day+%F0%9F%98%8A" alt="Typing SVG" /></a>
-</p>
-<!-- ![profile_cover](./profile_cover.png) -->
-
 <div align="center">
 
 <p align="center" width="500px">
@@ -31,12 +26,6 @@
 _Building innovative solutions and contributing to impactful projects_
 
 Portfolio: [**m3h3d1ha2an.vercel.app**](https://m3h3d1ha2an.vercel.app)
-
-##
-
-### GitHub Activity
-
-![snake gif](https://github.com/m3h3d1ha2an/m3h3d1ha2an/blob/update-professional-readme/github-contribution-grid-snake-dark.svg)
 
 ##
 
@@ -94,6 +83,10 @@ Portfolio: [**m3h3d1ha2an.vercel.app**](https://m3h3d1ha2an.vercel.app)
 
 ##
 
+### GitHub Activity
+
+![snake gif](https://github.com/m3h3d1ha2an/m3h3d1ha2an/blob/update-professional-readme/github-contribution-grid-snake-dark.svg)
+
 <div align="center">
 
 ### GitHub Stats
@@ -101,6 +94,8 @@ Portfolio: [**m3h3d1ha2an.vercel.app**](https://m3h3d1ha2an.vercel.app)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=m3h3d1ha2an&theme=dark)
 
 </div>
+
+##
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=m3h3d1ha2an&color=2563EB&style=for-the-badge&label=Profile+Views" alt="Profile views" />
