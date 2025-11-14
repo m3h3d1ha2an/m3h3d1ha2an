@@ -81,7 +81,7 @@ Portfolio: [**m3h3d1ha2an.vercel.app**](https://m3h3d1ha2an.vercel.app)
 
 ### GitHub Activity
 
-![snake gif](https://github.com/m3h3d1ha2an/m3h3d1ha2an/blob/update-professional-readme/github-contribution-grid-snake-dark.svg)
+![snake gif](https://github.com/m3h3d1ha2an/m3h3d1ha2an/blob/update-professional-readme/snake.svg)
 
 <div align="center">
 
