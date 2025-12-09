@@ -32,7 +32,7 @@
 
 ##
 
-![snake gif](https://github.com/m3h3d1ha2an/m3h3d1ha2an/blob/update-professional-readme/snake.svg)
+![snake gif](./animated-snake.svg)
 
 ##
 
