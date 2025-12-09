@@ -32,8 +32,12 @@
 
 ##
 
-![snake gif](./animated-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg">
+  <img alt="GitHub Contribution Grid Snake" src="github-snake.svg">
+</picture>
 
 ##
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=m3h3d1ha2an&theme=dark)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=m3h3d1ha2an&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=1200&card_height=480" alt="GitHub Streak" /></a>
