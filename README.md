@@ -27,8 +27,7 @@
 
 ##
 
-
-![My Skills](https://skillicons.dev/icons?i=ts,tailwind,next,react,redux,vite,express,nodejs,postgres,prisma,mongodb,graphql,vercel,bun,pnpm&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=ts,nodejs,next,react,tailwind,redux,vite,express,postgres,prisma,mongodb,graphql,vercel,bun,pnpm&theme=dark)
 
 ##
 
