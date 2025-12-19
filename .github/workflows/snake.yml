@@ -16,7 +16,7 @@ jobs:
       - name: checkout-current-branch # latest
         uses: actions/checkout@v6
 
-      - name: generate-snake-svgs # animated and themed
+      - name: generate-snake-svgs
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: commit-snake-svgs # generated svg files
+      - name: commit-snake-svgs
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "ci: update snake animation svgs"
