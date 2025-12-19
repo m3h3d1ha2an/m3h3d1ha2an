@@ -32,3 +32,4 @@ jobs:
           commit_message: "chore: update contribution snake svgs"
           file_pattern: "github-snake.svg github-snake-dark.svg"
           commit_user_name: "snake-bot"
+          commit_user_email: "snake-bot@users.noreply.github.com"
