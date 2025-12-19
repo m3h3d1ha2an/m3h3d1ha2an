@@ -1,22 +1,22 @@
-name: Generate Contribution Snake
+name: generate contribution snake animation
 
 on:
   schedule:
-    - cron: "0 18 * * *" 
+    - cron: "0 18 * * *" # Midnight (12:00 AM) Dhaka (UTC +6) Timezone
   workflow_dispatch:
 
 jobs:
-  generate:
+  generate-snake:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
     steps:
-      - name: Checkout repository
+      - name: checkout # current (default) branch "latest"
         uses: actions/checkout@v6
 
-      - name: Generate Snake SVGs
+      - name: generate snake svgs # animated and themed
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,9 +26,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit files to current branch
+      - name: commit snake svgs # generated svg files
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "docs: update snake animations [skip ci]"
+          commit_message: "chore: update contribution snake svgs"
           file_pattern: "github-snake.svg github-snake-dark.svg"
-          skip_ci: true
+          commit_user_name: "snake-bot"
