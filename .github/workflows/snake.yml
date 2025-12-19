@@ -1,4 +1,4 @@
-name: generate contribution snake animation
+name: generate-contribution-snake-animation
 
 on:
   schedule:
@@ -13,10 +13,10 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      - name: checkout # current (default) branch "latest"
+      - name: checkout-current-branch # latest
         uses: actions/checkout@v6
 
-      - name: generate snake svgs # animated and themed
+      - name: generate-snake-svgs # animated and themed
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,10 +26,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: commit snake svgs # generated svg files
+      - name: commit-snake-svgs # generated svg files
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: update contribution snake svgs"
+          commit_message: "ci: update snake animation svgs"
           file_pattern: "github-snake.svg github-snake-dark.svg"
-          commit_user_name: "snake-bot"
-          commit_user_email: "snake-bot@users.noreply.github.com"
